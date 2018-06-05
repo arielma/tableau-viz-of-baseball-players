@@ -54,7 +54,8 @@ I've also created a scatter plot to show the relationship between number of Home
 11. There is no exploration of relationship between Home Runs/Batting Average and Height/Weight. It would be interesting to see if there are any performance trends with Height and Weight.
 
 ## Link to the Vizzes
-First Viz: https://public.tableau.com/profile/ariel.ma7266#!/vizhome/BaseballViz_2/ForminganIdeanBaseballTeam?publish=yes
+First Viz: https://public.tableau.com/profile/ariel.ma7266#!/vizhome/BaseballViz_2/ForminganIdeanBaseballTeam?publish=yes  
+
 Final Viz: https://public.tableau.com/profile/ariel.ma7266#!/vizhome/FinalBaseballViz/Final-ForminganIdealBaseballTeam?publish=yes
 
 ## Resources
