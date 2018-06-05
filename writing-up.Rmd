@@ -1,0 +1,67 @@
+---
+title: "Baseball Data Visualisation with Tableau"
+author: "Ariel Ma"
+date: "03/06/2018"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Summary  
+
+
+The data set contains informaiton of 1157 baseball players. For each player, their handedness (right or left or both handed), height in inches, weight in pounds batting average and home runs are recorded.
+
+I will create visualisations to show various relationships between the variables using Tableau.
+
+
+## Design  
+
+For all visualisations I created, I removed grid lines and zero lines as these are unneccessary reference lines and will add no value for understanding the story. Title of the chart and axis labels are added for all charts.
+
+I have created two small multiples of histogram to show the distribution of Batting Average and Home Runs respectively. Since the number of players in different handedness groups are not the same and have significant difference, it is fair to compare using percentage of players rather than count.
+
+I used color in the histograms to mark the groups below or above the population median value. Annotation is also used to mark the total percentage of players in each handedness group that have Batting Average/Home Runs above population average. In this way we can easily compare the performance across all 3 handedness groups.
+
+Bar charts were created to show the relationship between:
+* Average Batting Average and Weight(bin)
+* Average Batting Average and Height(bin)
+* Average number of Home Runs and Weight(bin)
+* Average number of Home Runs and Height(bin)
+
+Bins were created on Weight and Height column to make sure the bar charts above could use the bins to form x axis. Y axis of the bar chart shows the the average value of either Batting Average or number of Home Runs of the specific bin.
+
+I've also created a scatter plot to show the relationship between number of Home Runs and Batting Average. Each point in the scatter plot is labled with the player's name. When hovering on the point, the details of the player will be shown. 4 reference lines were created in the scatter plot to help group players and help to identify the best players in batting or in running.
+
+## Feedback  
+
+
+1. Several charts are aligned to the left of the screen and the size is too small.  
+2. Labels of x and y axis are not showing or not clear enough to show what it is.  
+3. There is no title of the charts.  
+4. It is not clear that whether the median value used by histogram is the median of the whole population, or the median of the group.
+5. It is not clear of what the percentage value in the histogram is.  
+6. The meaning of the reference line could be more clear in the scatter plot.  
+7. The group of the scatter plot is misleading, e.g. Top Performance Players are actually the most balanced players with more Home Runs and Battings.
+8. When interacting with the dashboard, the legend is overlapping with the scatter plot.  
+9. Some interactions do not enhance the understanding of the data, e.g. dashboard hovering action.
+10. It would be better that the graph can fit the screen without scrolling up and down to see the full chart.
+11. There is no exploration of relationship between Home Runs/Batting Average and Height/Weight. It would be interesting to see if there are any performance trends with Height and Weight.
+
+## Link to the Vizzes
+First Viz: https://public.tableau.com/profile/ariel.ma7266#!/vizhome/BaseballViz_2/ForminganIdeanBaseballTeam?publish=yes
+Final Viz: https://public.tableau.com/profile/ariel.ma7266#!/vizhome/FinalBaseballViz/Final-ForminganIdealBaseballTeam?publish=yes
+
+## Resources
+1. https://community.tableau.com/thread/159504
+2. https://community.tableau.com/thread/152058
+3. https://community.tableau.com/thread/115843
+4. https://community.tableau.com/thread/223490
+5. https://onlinehelp.tableau.com/current/pro/desktop/en-us/publish_workbooks_tableaupublic.html
+
+
