@@ -36,6 +36,8 @@ Bar charts were created to show the relationship between:
 
 Bins were created on Weight and Height column to make sure the bar charts above could use the bins to form x axis. Y axis of the bar chart shows the the average value of either Batting Average or number of Home Runs of the specific bin.
 
+Scatter plots were then created to show the relationship between Home Runs/ Batting Average and Height/ Weight to further prove the observations from the bar charts.
+
 I've also created a scatter plot to show the relationship between number of Home Runs and Batting Average. Each point in the scatter plot is labled with the player's name. When hovering on the point, the details of the player will be shown. 4 reference lines were created in the scatter plot to help group players and help to identify the best players in batting or in running.
 
 ## Feedback  
@@ -49,9 +51,12 @@ I've also created a scatter plot to show the relationship between number of Home
 6. The meaning of the reference line could be more clear in the scatter plot.  
 7. The group of the scatter plot is misleading, e.g. Top Performance Players are actually the most balanced players with more Home Runs and Battings.
 8. When interacting with the dashboard, the legend is overlapping with the scatter plot.  
-9. Some interactions do not enhance the understanding of the data, e.g. dashboard hovering action.
-10. It would be better that the graph can fit the screen without scrolling up and down to see the full chart.
-11. There is no exploration of relationship between Home Runs/Batting Average and Height/Weight. It would be interesting to see if there are any performance trends with Height and Weight.
+9. Some interactions do not enhance the understanding of the data, e.g. dashboard hovering action. 
+10. It would be better that the graph can fit the screen without scrolling up and down to see the full chart. 
+11. There is no exploration of relationship between Home Runs/Batting Average and Height/Weight. It would be interesting to see if there are any performance trends with Height and Weight. 
+12. The captions of the story need to be more detailed to explain the observations of the charts. 
+13. It is unclear what R, L and B stand for. It would be good to use the full words instead of abbreviations so the audience can easily understand the context.
+
 
 ## Link to the Vizzes
 First Viz: https://public.tableau.com/profile/ariel.ma7266#!/vizhome/BaseballViz_2/ForminganIdeanBaseballTeam?publish=yes  
